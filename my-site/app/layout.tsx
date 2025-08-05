@@ -1,6 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import Taskbar from "@/components/Taskbar";
+import Taskbar from "../components/Taskbar";
 
 export const metadata: Metadata = {
   title: "Jeffrey Wan",

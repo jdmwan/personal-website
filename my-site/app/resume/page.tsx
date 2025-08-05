@@ -1,6 +1,6 @@
-import ExperienceBlock from "@/components/ExperienceBlock";
-import ProjectCard from "@/components/ProjectCard"; // We'll create this next
-import ScrollSection from "@/components/ScrollSection";
+import ExperienceBlock from "../../components/ExperienceBlock";
+import ProjectCard from "../../components/ProjectCard"; // We'll create this next
+import ScrollSection from "../../components/ScrollSection";
 const experienceList = [
   {
     title: "Robotics Engineer Intern",

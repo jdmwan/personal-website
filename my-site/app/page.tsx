@@ -1,6 +1,6 @@
 'use client';
 
-import ScrollSection from "@/components/ScrollSection";
+import ScrollSection from "../components/ScrollSection";
 
 export default function Home() {
   return (
