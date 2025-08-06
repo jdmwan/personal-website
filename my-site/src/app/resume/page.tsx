@@ -62,8 +62,17 @@ const projectList = [
     return (
       <main className="overflow-y-scroll snap-y snap-mandatory scroll-smooth">
         <ScrollSection>
+            <div className="flex justify-between items-center mb-5">
+              <h1 className="text-4xl font-bold">Experience</h1>
+              <a
+                href="/resume/JW_2025.docx"
+                download
+                className="bg-zinc-800 text-white px-4 py-2 rounded hover:bg-zinc-700 transition-colors text-sm"
+              >
+                Download Resume
+              </a>
+          </div>
           <section>
-            <h1 className="text-4xl font-bold mb-5">Experience</h1>
             <div className="space-y-6">
               {experienceList.map((exp, idx) => (
                 <ExperienceBlock key={idx} {...exp} />
