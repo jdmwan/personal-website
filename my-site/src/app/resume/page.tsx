@@ -60,7 +60,7 @@ const projectList = [
   
   export default function ResumePage() {
     return (
-      <main className="overflow-y-scroll snap-y snap-mandatory scroll-smooth">
+      <main className="mb:pt-20 overflow-y-scroll snap-y snap-mandatory scroll-smooth">
         <ScrollSection>
             <div className="flex justify-between items-center mb-5">
               <h1 className="text-4xl font-bold">Experience</h1>
