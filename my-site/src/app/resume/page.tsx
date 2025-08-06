@@ -60,7 +60,7 @@ const projectList = [
   
   export default function ResumePage() {
     return (
-      <main className="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth">
+      <main className="overflow-y-scroll snap-y snap-mandatory scroll-smooth">
         <ScrollSection>
           <section>
             <h1 className="text-4xl font-bold mb-5">Experience</h1>
@@ -69,7 +69,7 @@ const projectList = [
                 <ExperienceBlock key={idx} {...exp} />
               ))}
             </div>
-            <p className="text-sm text-center text-gray-400 animate-bounce mt-5">Scroll down to learn more ↓</p>
+            <p className="text-sm text-center text-gray-400 animate-bounce mt-5">Scroll down for projects ↓</p>
           </section>
         </ScrollSection>
   
