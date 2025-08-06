@@ -10,7 +10,7 @@ export default function Taskbar() {
         <ul className="flex gap-4 text-sm">
           <li><Link href="/">Home</Link></li>
           <li><Link href="/resume">Resume</Link></li>
-          <li><Link href="/projects">Projects</Link></li>
+          {/* <li><Link href="/projects">Projects</Link></li> */}
         </ul>
       </nav>
     </header>

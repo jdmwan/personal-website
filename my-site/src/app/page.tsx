@@ -8,13 +8,13 @@ export default function Home() {
       {/* Section 1 — Intro Quote */}
       <ScrollSection>
         <div className="text-center space-y-4">
-          <h1 className="text-4xl sm:text-5xl font-semibold text-zinc-100">
+          <h1 className="text-4xl sm:text-5xl font-semibold text-zinc-900 dark:text-zinc-100">
             “Skill, Strategy, Fortune, Form.
           </h1>
-          <h1 className="text-4xl sm:text-5xl font-semibold text-zinc-100">
+          <h1 className="text-4xl sm:text-5xl font-semibold text-zinc-900 dark:text-zinc-100">
             Many factors influence strength.
           </h1>
-          <h1 className="text-4xl sm:text-5xl font-semibold text-zinc-100">
+          <h1 className="text-4xl sm:text-5xl font-semibold text-zinc-900 dark:text-zinc-100">
             But Victory Never lies.“
           </h1>
           <p className="text-sm text-zinc-400 italic">– Mavuika</p>
@@ -30,7 +30,7 @@ export default function Home() {
       <ScrollSection>
         <div className="space-y-4">
           <h2 className="text-3xl font-bold">Hi, I’m Jeffrey Wan</h2>
-          <p className="text-zinc-300">
+          <p>
             Welcome to my webpage. You’ll see lots of fun projects scattered around, and learn about me bit by bit. Go to the resume page to see what I do, and scroll down for more info about me.
           </p>
           <p className="text-sm text-gray-400 animate-bounce mt-8">Scroll down to learn more ↓</p>

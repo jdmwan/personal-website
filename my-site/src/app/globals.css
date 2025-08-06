@@ -10,6 +10,12 @@
   --font-sans: 'Inter', system-ui, sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, monospace;
 }
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+
 
 /* Dark mode override using system preference */
 @media (prefers-color-scheme: dark) {
@@ -17,6 +23,7 @@
     --background: #0a0a0a;
     --foreground: #f5f5f5;
   }
+  
 }
 
 /* Base body styling */
