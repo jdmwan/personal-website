@@ -74,7 +74,7 @@ export default function Home() {
         <div className="space-y-4">
           <h2 className="text-3xl font-bold">Hi, I’m Jeffrey Wan</h2>
           <p>
-            Welcome to my webpage. You’ll see lots of fun projects scattered around, and learn about me bit by bit. Go to the resume page to see what I do, and scroll down for more info about me.
+          An engineer who believes life’s too boring without solving big problems.
           </p>
           <p className="text-sm text-gray-400 animate-bounce mt-8">Scroll down to learn more ↓</p>
         </div>
@@ -82,7 +82,9 @@ export default function Home() {
       <ScrollSection> 
         <div className="space-y-4">
           <h2 className="text-3xl font-bold">About me</h2>
-          <p>I’m a mechanical engineer who builds across disciplines: hardware, software, whatever it takes. I move fast, but I care deeply. Every project is a chance to solve something real and leave it better than I found it.
+          <p>I’m an engineer who builds across robotics, software, and systems.  
+            From automating cryogenic workflows to simulating ROS-Unity turrets and building quant backtesting tools, I like taking on projects that connect hardware and code.  
+            For me, solving big problems isn’t just work—it’s what keeps life interesting.
           </p>
         </div>
       </ScrollSection>
