@@ -17,12 +17,12 @@ const experienceList = [
     description: "Robotics engineering creating automation scripts for cryo cooling",
   },
   {
-    title: "Resaerch Assistant",
+    title: "Research Assistant",
     company: "University of Waterloo",
     date: "May 2022 – Aug 2022",
     logoSrc: "/logos/waterloo.png",
     bullets: [
-      "Developed education alternatives to Ingstrom machines",
+      "Developed education alternatives to Instron machines",
       "Created and tested azure percept machine learning model for FEA testing",
     ],
     description: "Combining FEA and machine learning into one",
@@ -76,7 +76,8 @@ export default function Home() {
           <p>
           An engineer who believes life’s too boring without solving big problems.
           </p>
-          <p className="text-sm text-gray-400 animate-bounce mt-8">Scroll down to learn more ↓</p>
+          {/* check if i want it  */}
+          {/* <p className="text-sm text-gray-400 animate-bounce mt-8">Scroll down to learn more ↓</p> */}
         </div>
       </ScrollSection>
       <ScrollSection> 
@@ -87,6 +88,15 @@ export default function Home() {
             For me, solving big problems isn’t just work—it’s what keeps life interesting.
           </p>
         </div>
+      </ScrollSection>
+      <ScrollSection>
+        <div className="space-y-4">
+          <h2 className="text-3xl font-bold">Skills placeholder</h2>
+          <p>Programing Languages: Python, C++</p>
+          <p>Software Tools: ROS2, PX4, Isaac Sim, Pytorch, OpenCV</p>
+          <p>Mechanical Skills: SolidWorks, AutoCAD, ANSYS FLUENT, ABAQUS</p>
+        </div>
+        
       </ScrollSection>
       <ScrollSection>
         <div className="space-y-6">
